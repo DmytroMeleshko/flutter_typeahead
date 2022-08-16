@@ -250,6 +250,7 @@ class TypeAheadFormField<T> extends FormField<String> {
   /// Creates a [TypeAheadFormField]
   TypeAheadFormField(
       {Key? key,
+      ScrollController? scrollController,
       String? initialValue,
       bool getImmediateSuggestions: false,
       @Deprecated('Use autovalidateMode parameter which provides more specific '
@@ -302,6 +303,7 @@ class TypeAheadFormField<T> extends FormField<String> {
                   field as _TypeAheadFormFieldState<dynamic>;
 
               return TypeAheadField(
+                scrollController: scrollController,
                 getImmediateSuggestions: getImmediateSuggestions,
                 transitionBuilder: transitionBuilder,
                 errorBuilder: errorBuilder,
