@@ -1,3 +1,33 @@
+## 4.2.0 - 27-October-2022
+
+-- PR #432 - Fix suggestions box behavior on web
+-- PR #431 - Add autoFlipListDirection option
+
+## 4.1.1 - 17-September-2022
+
+-- PR #428 - Fix some issues with web / arrows etc.
+
+## 4.1.0 - 5-September-2022
+
+-- PR #409 - Add null safety to suggestions box controller
+-- PR #417 - Improved support for VoiceOver/TalkBack
+-- PR #418 - Feat/key up down
+-- PR #422 - Adding hideKeyboardOnDrag option
+-- PR #424 - Updated README: added pub.dev shield
+
+## 4.0.0 - 15-May-2022
+
+-- PR #395 - Fix Flutter 3.0 warnings
+
+## 3.2.7 - 15-May-2022
+
+-- REVERT PR #395 - Fix Flutter 3.0 warnings
+
+## 3.2.6 - 15-May-2022
+
+-- PR #393 - Hide suggestion on close issue fix
+-- PR #395 - Fix Flutter 3.0 warnings
+
 ## 3.2.5 - 18-Apr-2022
 
 -- PR #383 - Fix maxLengthEnforced deprecation
